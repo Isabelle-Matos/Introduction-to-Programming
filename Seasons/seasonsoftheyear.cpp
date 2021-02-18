@@ -7,7 +7,7 @@ int main()
     int day, month;
     //enter the day and the month you want to know the season
     //this program doesn't recognize invalid months or days
-    //consider February containing 28 days
+    //consider that February containing 28 days
     cin >> month >> day;
 
         if(month == 12 && day >= 1)
