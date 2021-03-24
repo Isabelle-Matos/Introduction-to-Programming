@@ -1,5 +1,7 @@
 #include <iostream>
 
+using namespace std;
+
 int main()
 {
    int N; // number of readings (1<=N && N<=1000)
