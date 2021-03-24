@@ -31,7 +31,6 @@ int main()
     cout << "Play again?(y/n)" << endl;
     cin >> answ;
     }while(answ != 'n');
-
-
+    
     return 0;
 }
