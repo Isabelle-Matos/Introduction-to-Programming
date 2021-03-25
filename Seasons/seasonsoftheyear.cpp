@@ -10,7 +10,7 @@ int main()
     //consider that February containing 28 days
     cin >> month >> day;
 
-        if(month == 12 && day >= 1)
+        if(month == 12)
         {
             cout << day << " of december" << endl;
             cout << "Winter" << endl;
