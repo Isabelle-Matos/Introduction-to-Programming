@@ -19,6 +19,8 @@ void fracsum(int na, int da, int nb, int db, int &nr, int &dr)
     }
      if(nr>=dr)
     {
+        for(i=1; i<=nr; i++)
+        {
             if(nr%i == 0 && dr%i == 0)
                 simplifica = i;
         }
