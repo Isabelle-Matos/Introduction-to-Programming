@@ -12,7 +12,7 @@ void goodbye()
     char farewell[4][50] = {"See you later!", "Bye!", "Have a nice day!", "Catch you later!"};
     cout << farewell[rand()%4] << endl;
 }
-void sign(int n)//search the sign according to his number
+void sign(int n)//search the sign according to the number
 {
     if(n == 1)//sign for Aries
     {
